@@ -1,0 +1,22 @@
+{
+  "name": "stripe-integration",
+  "version": "1.0.0",
+  "description": "1. Clone this project ``` git clone https://github.com/verma-kunal/AWS-Session.git ``` 2. Setup the following environment variables - `(.env)` file ``` DOMAIN= \"\" PORT=3000 STATIC_DIR=\"./client\"",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Kunal Verma",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.22.1",
+    "stripe": "^9.8.0"
+  },
+  "keywords": [],
+  "type": "commonjs"
+}
