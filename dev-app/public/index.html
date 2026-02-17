@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Santhosh DevOps Lab</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>🚀 DevOps Learning Lab</h1>
+  <p>Hands-on Practice Environment</p>
+</header>
+
+<!-- HOME MENU -->
+<section id="home" class="page active">
+  <div class="menu">
+    <button onclick="showLifecycle()">Start DevOps Journey</button>
+    <button onclick="showLinux()">Linux Real-Time Commands</button>
+  </div>
+</section>
+
+<!-- DEVOPS LIFECYCLE -->
+<section id="lifecycle" class="page">
+  <h2>DevOps Life Cycle</h2>
+  <img src="/public/assects/DevOps-LifeCycle.jpg" class="diagram">
+  <button class="back" onclick="goHome()">⬅ Back</button>
+</section>
+
+<!-- TERMINAL -->
+<section id="linux" class="page terminal-page">
+  <div id="terminal"></div>
+  <button class="back" onclick="goHome()">⬅ Back</button>
+</section>
+
+<footer>
+  Created by <b>Santhosh</b> — Aspiring DevOps Engineer
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
